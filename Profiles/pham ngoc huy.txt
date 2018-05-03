@@ -1,0 +1,7 @@
+ ten: pham ngoc huy
+ sinh: 91
+ sinh vien nam 2
+ truong giao thong van tai
+ mang mang tinh truyen thong
+ BIET : html css
+ So thich: front-end, db 
