@@ -1,7 +1,23 @@
- ten: pham ngoc huy
- sinh: 91
- sinh vien nam 2
- truong giao thong van tai
- mang mang tinh truyen thong
- BIET : html css
- So thich: front-end, db 
+Tên: Phạm Ngọc HUy
+Ngày sinh: 25-11-1991
+Trường: Giao thông vận tải Hà Nội
+Sinh viên chuyên ngành mạng máy tính và truyền thông yêu thích lập trình.
+Năm thứ: 4
+Lộ trình đã học ở trường:
+        - Năm 1 => kì 1: C. =>kì 2: C++
+        - Năm 2 => kì 1: Java (core, jsp, servlet) => kì 2: Cơ sở dữ liệu (mysql). Cùng với đó là chuyên ngành mạng máy tính
+        - Năm 3 => kì 1: C# - Winform => kì 2: C# ASP.NET. Cùng với đó là chuyên ngành mạng máy tính
+        - Năm 4 => kì 1: Học linh tinh cả,.....và làm đồ án tốt nghiệp bằng Game Android sử dụng Java....
+     hoặc
+        - Hiện tại học năm 1, có phải năm 4 đâu mà biết cái gì. Nói ở trên là giả vờ thôi. Đừng có tin
+ Đã đi làm chưa?
+       - Hiện tại không có thời gian cày Game lấy đâu ra đi làm
+     hoặc
+       - Hiện tại đã và đang đi làm.
+       - Ngôn ngữ đi làm C#, Java, HTML, CSS
+       - Công cụ chủ yếu là Eclipse, Git
+Mong muốn sau này làm việc
+       - Em muốn làm Game thủ mà tự tay mình code ra game đó
+     hoặc
+       - Làm Tester
+       - Làm kinh doanh, học web chỉ là cho vui thôi.
