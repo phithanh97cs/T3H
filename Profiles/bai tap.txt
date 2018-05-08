@@ -1,0 +1,6 @@
+1 Tại sao html chỉ có thể 1 id thôi?
+2 Menu ngang 
+      + trái phải, 
+      + Chỉnh giữa, 
+      + Dùng Float: left;
+      
