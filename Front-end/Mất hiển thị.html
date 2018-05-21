@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<media ofset='UTF8'>
+	<script>
+    	function myScript(){
+			// lấy giá trị nhập
+			var nameInput = document.getElementById("fname").value;
+			// logic
+			if(nameInput ==""){
+				alert('Bạn phải nhập dữ liệu');
+			} else {
+				document.getElementsByClassName("thongtin")[0].innerHTML = 'Bạn đã nhập: ' + nameInput;
+				//alert(document.getElementsByClassName("thongtin")[0].innerHTML );
+			}
+		}
+		
+       
+    </script>
+
+</head>
+<body>	
+	<!--Form Name Start-->
+	<form>
+    	Name: <input id="fname" type="text" placeholder="Nhập thông tin...."/>
+        
+        <button onclick="myScript();">Check name</button>
+    </form>
+    <!--Form Name End-->
+	<p class="thongtin">Bạn đã nhập:</p>
+</body>
+
+</html>
