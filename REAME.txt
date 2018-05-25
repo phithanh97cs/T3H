@@ -15,5 +15,5 @@ Với học viên
 	- làm bài tập
 Với yêu cầu khóa học
 	- Eclipse for Java EE developer 
-	- Sử dụng được github.com và eclipse như đã mô tả
+	- Sử dụng được github.com và eclipse như ĐÃ MÔ TẢ
 	- 
