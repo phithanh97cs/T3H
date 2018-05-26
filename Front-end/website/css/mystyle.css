@@ -81,3 +81,26 @@ ul {
 	text-align: center;
 }
 /* CUSTOM CSS CLASS LIKE BOOTSTRAP END */
+
+/*CSS FOR LAYOUT GRID START*/
+#header{
+	background-color: red;
+}
+
+#navigator{
+	background-color: #333;
+}
+#main-content{
+	background-color: grey;
+}
+.content{
+	background-color: blue;
+}
+.side-bar{
+	background-color: blue;
+}
+#footer{
+	background-color: black;
+}
+/*CSS FOR LAYOUT GRID END*/
+
