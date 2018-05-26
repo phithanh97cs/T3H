@@ -104,3 +104,12 @@ ul {
 }
 /*CSS FOR LAYOUT GRID END*/
 
+
+/*RESPONSIVE SCREEN START*/
+@media only screen and (max-width: 768px){
+    .left, .right{
+        float: none;
+        width: 100%;
+    }
+}
+/*RESPONSIVE SCREEN END*/
