@@ -14,4 +14,8 @@ Các demo
 			https://www.w3schools.com/code/tryit.asp?filename=FR4S9VGY6Z2I
 		+ Kết hợp bo tròn và hiệu ứng
 			https://www.w3schools.com/code/tryit.asp?filename=FR4T28PXKLIO
-	- 
+Reponsove 
+	+ tạo menu dọc responsive
+		https://www.w3schools.com/code/tryit.asp?filename=FROY6ZILW9W6
+	+ tạo menu ngang responsive
+		https://www.w3schools.com/code/tryit.asp?filename=FRPRO6Z3EHP9

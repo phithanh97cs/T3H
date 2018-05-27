@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Menu dọc responsive</title>
+</head>
+
+<style>
+/*RESET CSS START*/
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+/*RESET CSS END*/
+
+/*CUSTOM CLASS START*/
+.clear {
+	clear: both;
+}
+
+.icon {
+	display: none !important;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+/*CUSTOM CLASS END*/
+
+/*NAVIGATOR COMMON START*/
+#navigator {
+	background-color: #333;
+}
+
+.logo-home {
+	float: left;
+}
+
+#navigator a {
+	padding: 12px 24px;
+	display: block;
+}
+
+#navigator>ul>li {
+	display: inline-block;
+}
+
+li.dropdown {
+	position: relative;
+}
+
+ul.child {
+	display: none;
+	position: absolute;
+}
+
+li.dropdown:hover .child {
+	display: block;
+}
+/*NAVIGATOR COMMON END*/
+
+/*MOBILE AND TABLET START*/
+@media screen and (max-width: 768px) {
+	/*CUSTOM CLASS MOBILE START*/
+	.left, .right {
+		float: none;
+		width: 100%;
+	}
+	/*CUSTOM CLASS MOBILE END*/
+
+	/*NAVIGATOR MOBILE START*/
+	.icon {
+		display: block !important;
+		position: absolute;
+		right: 0px;
+	}
+	#navigator ul {
+		display: none;
+	}
+	div.nav-logo {
+		position: relative;
+	}
+	#navigator>ul>li {
+		display: block;
+	}
+	ul.child {
+		display: none;
+		position: relative;
+	}
+	/*NAVIGATOR MOBILE END*/
+
+	/*OTHER START*/
+	/*OTHER END*/
+}
+/*MOBILE AND TABLET END*/
+</style>
+
+<div id="navigator">
+
+	<div class="nav-logo left">
+		<a href="#" class="logo-home">WebsiteName</a> <a
+			href="javascript:void(0);" class="icon" onclick="myFunction()"> <i
+			class="fa fa-bars"></i>
+		</a>
+		<div class="clear"></div>
+	</div>
+
+	<ul class="left">
+		<li><a href="#">Trang chủ</a></li>
+		<li class="dropdown"><a href="#">Tin tức <i
+				class="fa fa-angle-down"></i>
+
+		</a>
+			<ul class="child">
+				<li><a href="#">Menu2</a></li>
+				<li><a href="#">Menu2</a></li>
+			</ul></li>
+		<li><a href="#">Sản phẩm</a></li>
+		<li><a href="#">Liên hệ</a></li>
+	</ul>
+
+	<ul class="right">
+		<li><a href="#">Login</a></li>
+		<li><a href="#">Register</a></li>
+	</ul>
+	<div class="clear"></div>
+
+</div>
+
+
+
+<script>
+      function myFunction() {
+        var x = document.getElementsByTagName("ul");
+        for(var i = 0; i < x.length; i++){
+          var element = x[i];
+          if(element.style.display == "block"){
+            element.style.display = "none";
+          } else {
+            element.style.display = "block";
+          }
+        }
+      }
+    </script>
+</body>
+</html>

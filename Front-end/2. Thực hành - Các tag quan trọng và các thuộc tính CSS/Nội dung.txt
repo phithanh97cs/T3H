@@ -30,7 +30,8 @@ Thực hành:
 		+ tạo menu ngang
 		    https://www.w3schools.com/code/tryit.asp?filename=FR4RK6ZPYP07
 		+ tạo menu ngang 2 cấp
-			https://www.w3schools.com/code/tryit.asp?filename=FR4RQYVM8O6B
+			
+
 	- Tạo buttton
 		+ Button có hiệu ứng hover
 			https://www.w3schools.com/code/tryit.asp?filename=FR4S5XLFU08E
