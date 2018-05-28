@@ -39,7 +39,7 @@ ul {
 	margin-left: auto;
 }
 
-.clearfix {
+.clear {
 	clear: both;
 }
 
@@ -109,11 +109,8 @@ ul {
 	background-color: red;
 }
 
-#navigator {
-	background-color: #333;
-}
-
 #main-content {
+	margin-top: 5px;
 	background-color: grey;
 }
 
@@ -135,6 +132,10 @@ ul {
 	background-color: #333;
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+.icon{
+    display: none !important;
 }
 
 #navigator a {
