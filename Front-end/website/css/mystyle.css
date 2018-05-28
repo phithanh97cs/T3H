@@ -1,115 +1,215 @@
 @charset "UTF-8";
 /* IMPORT START*/
 @import url("footer.css");
+
 @import url("header.css");
+
 @import url("navigator.css");
+
 @import url("main-content.css");
+
 @import url("sidebar.css");
+
 @import url("content.css");
+
 @import url("footer.css");
 /* IMPORT END*/
 
 /* RESET CSS START */
-*{
+* {
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
 }
-a{
+
+a {
 	text-decoration: none;
 }
+
 ul {
 	list-style-type: none;
 }
 /* RESET CSS END */
 
-
-
 /* CUSTOM CSS CLASS LIKE BOOTSTRAP START */
 .container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
 }
-.clearfix{
+
+.clearfix {
 	clear: both;
 }
-.left{
+
+.left {
 	float: left;
 }
-.right{
+
+.right {
 	float: right;
 }
-.column1{
-	width: 8.33%;	
+
+.column1 {
+	width: 8.33%;
 }
-.column2{
-	width: 16.6%;	
+
+.column2 {
+	width: 16.6%;
 }
-.column3{
-	width: 24.9%;	
+
+.column3 {
+	width: 24.9%;
 }
-.column4{
-	width: 33.2%;	
+
+.column4 {
+	width: 33.2%;
 }
-.column5{
-	width: 41.5%;	
+
+.column5 {
+	width: 41.5%;
 }
-.column6{
-	width: 49.8%;	
+
+.column6 {
+	width: 49.8%;
 }
-.column7{
-	width: 58.1%;	
+
+.column7 {
+	width: 58.1%;
 }
-.column8{
-	width: 66.4%;	
+
+.column8 {
+	width: 66.4%;
 }
-.column9{
-	width: 74.7%;	
+
+.column9 {
+	width: 74.7%;
 }
-.column10{
-	width: 83%;	
+
+.column10 {
+	width: 83%;
 }
-.column11{
-	width: 91.3%;	
+
+.column11 {
+	width: 91.3%;
 }
-.row{
+
+.row {
 	width: 100%;
 }
-.text-center{
+
+.text-center {
 	text-align: center;
 }
 /* CUSTOM CSS CLASS LIKE BOOTSTRAP END */
 
 /*CSS FOR LAYOUT GRID START*/
-#header{
+#header {
 	background-color: red;
 }
 
-#navigator{
+#navigator {
 	background-color: #333;
 }
-#main-content{
+
+#main-content {
 	background-color: grey;
 }
-.content{
+
+.content {
 	background-color: blue;
 }
-.side-bar{
+
+.side-bar {
 	background-color: blue;
 }
-#footer{
+
+#footer {
 	background-color: black;
 }
 /*CSS FOR LAYOUT GRID END*/
 
-
-/*RESPONSIVE SCREEN START*/
-@media only screen and (max-width: 768px){
-    .left, .right{
-        float: none;
-        width: 100%;
-    }
+/*NAVIGATOR COMMON START*/
+#navigator {
+	background-color: #333;
+	padding-left: 15px;
+	padding-right: 15px;
 }
-/*RESPONSIVE SCREEN END*/
+
+#navigator a {
+	color: white;
+	padding: 12px 24px;
+	display: block;
+}
+
+#navigator a:hover, #navigator a.active {
+	background-color: #ddd;
+	color: #333;
+}
+
+.logo-home {
+	float: left;
+}
+
+#navigator>ul>li {
+	display: inline-block;
+	margin-left: -5px;
+}
+
+li.dropdown {
+	position: relative;
+}
+
+ul.child {
+	display: none;
+	background-color: #333;
+	position: absolute;
+}
+
+li.dropdown:hover ul.child {
+	display: block;
+}
+/*NAVIGATOR COMMON END*/
+
+/*MOBILE AND TABLET START*/
+@media screen and (max-width: 768px) {
+	/*FOR ul child*/
+	ul.child {
+		padding-left: 20px;
+		background-color: #333;
+		position: absolute;
+	}
+
+	/*CUSTOM CLASS MOBILE START*/
+	.left, .right {
+		float: none;
+		width: 100%;
+	}
+	/*CUSTOM CLASS MOBILE END*/
+
+	/*NAVIGATOR MOBILE START*/
+	.icon {
+		display: block !important;
+		position: absolute;
+		right: 0px;
+	}
+	#navigator ul {
+		display: none;
+	}
+	div.nav-logo {
+		position: relative;
+	}
+	#navigator>ul>li {
+		display: block;
+	}
+	ul.child {
+		display: none;
+		position: relative;
+	}
+	/*NAVIGATOR MOBILE END*/
+
+	/*OTHER START*/
+	/*OTHER END*/
+}
+/*MOBILE AND TABLET END*/
