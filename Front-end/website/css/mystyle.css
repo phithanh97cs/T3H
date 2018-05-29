@@ -32,6 +32,9 @@ ul {
 /* RESET CSS END */
 
 /* CUSTOM CSS CLASS LIKE BOOTSTRAP START */
+body{
+	background-color: #ddd;
+}
 .container {
 	padding-right: 15px;
 	padding-left: 15px;
