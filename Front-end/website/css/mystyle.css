@@ -13,6 +13,7 @@
 @import url("content.css");
 
 @import url("footer.css");
+
 /* IMPORT END*/
 
 /* RESET CSS START */
@@ -122,7 +123,9 @@ body{
 }
 
 .side-bar {
-	background-color: blue;
+	background-color: #444;
+	border-radius: 4px;
+	height: 200px;
 }
 
 #footer {
