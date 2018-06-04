@@ -149,29 +149,5 @@ body{
 		width: 100%;
 	}
 	/*CUSTOM CLASS MOBILE END*/
-
-	/*NAVIGATOR MOBILE START*/
-	.icon {
-		display: block !important;
-		position: absolute;
-		right: 0px;
-	}
-	#navigator ul {
-		display: none;
-	}
-	div.nav-logo {
-		position: relative;
-	}
-	#navigator>ul>li {
-		display: block;
-	}
-	ul.child {
-		display: none;
-		position: relative;
-	}
-	/*NAVIGATOR MOBILE END*/
-
-	/*OTHER START*/
-	/*OTHER END*/
 }
 /*MOBILE AND TABLET END*/
