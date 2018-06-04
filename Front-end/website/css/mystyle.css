@@ -109,10 +109,6 @@ body{
 /* CUSTOM CSS CLASS LIKE BOOTSTRAP END */
 
 /*CSS FOR LAYOUT GRID START*/
-#header {
-	background-color: red;
-}
-
 #main-content {
 	margin-top: 5px;
 	background-color: grey;
