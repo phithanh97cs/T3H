@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<style>
+	   *{
+		padding: 0px;
+		margin: 0px;
+		box-sizing: border-box;
+	   }
+		
+		.sidebar{
+			width: 30%;
+			float: left;
+		}
+		
+		.main-content{
+			
+		}
+		.content{
+			width: 70%;
+			float: right;
+		}
+
+		.item{
+			padding: 20px;
+			min-width: 300px;
+			position: relative;
+			width: 30%;
+			background-color: #F0FFFF;
+			border: 2px solid #ddd;
+			height: 550px;
+			float: right;
+			margin-left: 2px;
+			text-align: center;
+			margin-top: 10px;
+			border-radius: 8px;
+			border-bottom: none;
+			
+		}
+		.item img{
+			margin: auto;
+			min-width: 200px;
+			max-height: 400px;
+		}
+		
+		.item a{
+			padding: 12px 20px;
+			background-color: blue;
+		}
+		
+		.item .detail, .item p{
+			margin: 20px auto;
+		}
+		.clear{
+			clear: both;
+		
+		}
+		
+		.child-border {
+			position: absolute;
+			height: 100%;
+			border: 2px solid #ddd;
+			bottom: 0px;
+			width: 360px;
+			right: 0px;
+			border-style: none none solid none;
+			border-radius: 8px;
+			border-bottom-left-radius: 0px;
+		}
+		
+		@media screen and (max-width: 768px) {
+			.item{
+				width: 100%;
+			}
+			
+			.sidebar{
+				width: 100%;
+			}
+			
+			.content{
+				width: 100%;
+			}
+		}
+		
+		
+		
+	</style>
+</head>
+<body>
+<div class="main-content">
+	<div class="sidebar">
+	
+	</div>
+	<div id="content">
+			
+		<div class="item">
+			<img src="http://hoagiare.net/wp-content/uploads/2018/03/n02-300x450.jpg"/>
+			<p>Hoa Sinh nhật</p>
+			<div class="detail">
+				<a>Chi tiết</a>
+				<a>Mua hàng</a>
+			</div>
+			<div class="child-border"></div>
+		</div>
+		
+		<div class="item">
+			<img src="http://hoagiare.net/wp-content/uploads/2018/03/n02-300x450.jpg"/>
+			<p>Hoa Sinh nhật</p>
+			<div class="detail">
+				<a>Chi tiết</a>
+				<a>Mua hàng</a>
+			</div>
+			<div class="child-border"></div>
+		</div>
+		
+		<div class="item">
+			<img src="http://hoagiare.net/wp-content/uploads/2018/03/n02-300x450.jpg"/>
+			<p>Hoa Sinh nhật</p>
+			<div class="detail">
+				<a>Chi tiết</a>
+				<a>Mua hàng</a>
+			</div>
+			<div class="child-border"></div>
+		</div>
+		
+		<div class="item">
+			<img src="http://hoagiare.net/wp-content/uploads/2018/03/n02-300x450.jpg"/>
+			<p>Hoa Sinh nhật</p>
+			<div class="detail">
+				<a>Chi tiết</a>
+				<a>Mua hàng</a>
+			</div>
+			<div class="child-border"></div>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div>
+
+</body>
+</html> 
