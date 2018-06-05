@@ -44,4 +44,19 @@ function setMenuActiveEvent() {
 		}
 	}
 }
+
+/* sticky menu */
+window.onscroll = function() {
+	stickyNavigator()
+};
+var navbar = document.getElementById("navigator");
+var sticky = navbar.offsetTop;
+function stickyNavigator() {
+	if (window.pageYOffset >= sticky) {
+		navbar.classList.add("sticky")
+	} else {
+		navbar.classList.remove("sticky");
+	}
+}
+
 //JS for navigator end
