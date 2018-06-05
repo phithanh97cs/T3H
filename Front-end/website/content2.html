@@ -15,19 +15,20 @@
 	width: 30%;
 	float: left;
 	background-color: #333;
-	justify-content: flex-end;
+}
+
+.right{
+	float: right;
+}
+
+.left{
+	float: left;
 }
 
 .content {
 	width: 70%;
 	float: right;
-	padding-left: 15px;
-	padding-right: 15px;
-	display: table;
-}
-
-.main-content {
-	width: 100%;
+	padding: 0 15px;
 	
 }
 
@@ -38,12 +39,9 @@
 /*PRODUCT CONTENT START*/
 .product {
 	padding: 20px;
-	position: relative;
 	width: 25%;
-	float: right;
+	float: left;
 	text-align: center;
-	border: 1px solid transparent;
-	margin-top: 5px;
 }
 
 .product:hover {
@@ -53,18 +51,11 @@
 
 .product>a {
 	display: block;
-	width: 200px;
-	overflow: hidden;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .product img {
 	width: auto;
-	height: 100%;
-	margin: auto;
 	max-width: 200px;
-	border: none;
 }
 /*PRODUCT CONTENT END*/
 @media screen and (max-width: 768px) {
@@ -82,8 +73,8 @@
 </head>
 <body>
 	<div class="main-content">
-		<div class="sidebar">dss</div>
-		<div class="content">
+		<div class="sidebar left">SIDE-BAR</div>
+		<div class="content right">
 
 			<div class="product">
 				<a> <span class="image"><img
@@ -155,6 +146,7 @@
 
 				</a>
 			</div>
+			
 
 		</div>
 		<div class="clear"></div>
