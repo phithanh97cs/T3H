@@ -146,9 +146,27 @@
 /*PRODUCT CONTENT END*/
 @media screen and (max-width: 768px) {
 	.content>.product-item {
+		width: 33.333333333333334%;
+		display: inline-block;
+		vertical-align: top;
+		margin: 0;
+	}
+	
+	
+}
+
+@media screen and (max-width: 600px) {
+	
+	.content>.product-item {
 		width: 50%;
 		display: inline-block;
 		vertical-align: top;
 		margin: 0;
+	}
+	.side-bar{
+		width: 100%;
+	}
+	.content{
+		width: 100%;
 	}
 }
