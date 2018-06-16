@@ -1,0 +1,8 @@
+1. Tìm hiểu các thành phần trong của Hibernate
+
+2. Hibernate đơn giản với config XML
+
+3. Hiberante với Annotation 
+
+4. Các cách để giao tiếp với cơ sở dữ liệu của hibernate
+

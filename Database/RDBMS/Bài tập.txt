@@ -15,5 +15,3 @@
 	3.4 Tìm tổng sách với chủ đề kinh dị
 	3.5 Tính tất cả số tiền của tất cả các hóa đơn trong ngày 13/6/2018
 	3.6 Tìm tổng số tiền các sách với chủ đề ngôn tình trong tháng 6/2018
-	
-	
