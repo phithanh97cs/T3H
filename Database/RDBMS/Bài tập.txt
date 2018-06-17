@@ -15,3 +15,21 @@
 	3.4 Tìm tổng sách với chủ đề kinh dị
 	3.5 Tính tất cả số tiền của tất cả các hóa đơn trong ngày 13/6/2018
 	3.6 Tìm tổng số tiền các sách với chủ đề ngôn tình trong tháng 6/2018
+
+	Lời giải
+	
+1. 
+
+CREATE TABLE `bookmanagement`.`customer` (
+  `idCustomer` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(100) NULL,
+  `address` VARCHAR(300) NULL,
+  `phone` VARCHAR(20) NULL,
+  PRIMARY KEY (`idCustomer`));
+
+CREATE TABLE `bookmanagement`.`author` (
+  `idAuthor` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(200) NULL,
+  `date_of_death` DATE NULL,
+  `date_of_birdth` DATE NULL,
+  PRIMARY KEY (`idAuthor`));
