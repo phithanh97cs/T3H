@@ -20,16 +20,3 @@
 	
 1. 
 
-CREATE TABLE `bookmanagement`.`customer` (
-  `idCustomer` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(100) NULL,
-  `address` VARCHAR(300) NULL,
-  `phone` VARCHAR(20) NULL,
-  PRIMARY KEY (`idCustomer`));
-
-CREATE TABLE `bookmanagement`.`author` (
-  `idAuthor` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(200) NULL,
-  `date_of_death` DATE NULL,
-  `date_of_birdth` DATE NULL,
-  PRIMARY KEY (`idAuthor`));
