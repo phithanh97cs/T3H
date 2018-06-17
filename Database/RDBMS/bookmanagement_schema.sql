@@ -1,10 +1,9 @@
-
 -- phpMyAdmin SQL Dump
 -- version 4.5.1
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 17, 2018 at 11:31 AM
+-- Generation Time: Jun 17, 2018 at 01:57 PM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 7.0.13
 
@@ -15,10 +14,7 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */
-
-CREATE DATABASE IF NOT EXISTS `bookmanagement` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
-USE `bookmanagement`;
+/*!40101 SET NAMES utf8mb4 */;
 
 --
 -- Database: `bookmanagement`
@@ -72,8 +68,7 @@ CREATE TABLE `bookcategory` (
 CREATE TABLE `categories` (
   `idCategory` int(11) NOT NULL,
   `name` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
-  `description` varchar(300) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `categoriescol` varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL
+  `description` varchar(300) COLLATE utf8_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -172,27 +167,27 @@ ALTER TABLE `orderbook`
 -- AUTO_INCREMENT for table `author`
 --
 ALTER TABLE `author`
-  MODIFY `idAuthor` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `idAuthor` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=101;
 --
 -- AUTO_INCREMENT for table `book`
 --
 ALTER TABLE `book`
-  MODIFY `idBook` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `idBook` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=101;
 --
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `idCategory` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `idCategory` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=101;
 --
 -- AUTO_INCREMENT for table `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `idCustomer` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `idCustomer` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=101;
 --
 -- AUTO_INCREMENT for table `order`
 --
 ALTER TABLE `order`
-  MODIFY `idOrder` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `idOrder` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=385;
 --
 -- Constraints for dumped tables
 --
