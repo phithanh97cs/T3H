@@ -37,6 +37,6 @@
 	3.5
 		SELECT SUM(`totalPrice`) FROM `order` WHERE `date` = '2016-06-29';
 	3.6
-		
+		SELECT SUM(`totalPrice`) FROM `order` WHERE `date` = '2016-06-29';
 
 
