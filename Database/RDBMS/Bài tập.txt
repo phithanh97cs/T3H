@@ -17,6 +17,26 @@
 	3.6 Tìm tổng số tiền các sách với chủ đề ngôn tình trong tháng 6/2018
 
 	Lời giải
-	
-1. 
+	3.1 SELECT SUM(`totalPrice`) FROM `order` WHERE `idCustomer` = 101;
+	3.2
+		Cach 1: Tìm id Nguyễn Nhật ánh => Count total Book với id
+			SELECT `idAuthor` FROM `author` WHERE `name` = 'Nguyen Nhat Anh'; >> 101
+			SELECT COUNT(*) FROM `book` WHERE `idAuthor` = 101
+		Cách 2: Select lồng nhau
+			SELECT COUNT(*) FROM `book` WHERE `idAuthor` = (SELECT `idAuthor` FROM `author` WHERE `name` = 'Nguyen Nhat Anh')
+		Cách 3:
+			SELECT COUNT(*) FROM `book` b INNER JOIN `author` a ON b.`idAuthor` = a.`idAuthor` WHERE  a.`name` = 'Nguyen Nhat Anh'
+	3.3 Lời giải tương ứng cách 3 ở bước trên
+		SELECT b.`name` FROM `book` b INNER JOIN `author` a ON b.`idAuthor` = a.`idAuthor` WHERE  a.`name` = 'Nguyen Nhat Anh'
+	3.4
+		Cách 1:
+		SELECT COUNT(*) as `Tổng số sách kinh dị` FROM `bookcategory` WHERE `idCategory` = (SELECT `idCategory` FROM `categories` WHERE `name` = 'kinh di')
+		
+		Cách 2:
+		SELECT COUNT(*) as `Tổng số sách kinh dị` FROM `bookcategory` b INNER JOIN `categories` c ON b.`idCategory` = c.`idCategory` WHERE c.`name` = 'kinh di'
+	3.5
+		SELECT SUM(`totalPrice`) FROM `order` WHERE `date` = '2016-06-29';
+	3.6
+		
+
 
