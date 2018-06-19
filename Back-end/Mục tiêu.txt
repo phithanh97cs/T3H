@@ -18,4 +18,29 @@
 		Trang web đa ngôn ngữ spring
 		Bảo mật
 		Cấu hình Spring thành thạo xml, java config
-		
+3. Các demo cần  đạt được
+
+3.1 Hibernate
+
+Hibernate cơ bản XML
+Hibernate Annotation 
+Hibernate Cached
+Hibernate với RestServie
+
+3.2 Servive
+REST Service
+SOAP Service
+
+3.3 Spring Core
+Spring Core đơn giản nhằm
+- Tường khái niệm IoC
+- Khái niệm DI trong Spring 
+- Lập trình hướng khía cạnh
+
+3.3 Spring MVC
+SpringMVC Hello World
+Spring MVC website đa ngôn ngữ
+Spring MVC Form Login
+Spring Security với Login đã tạo trước đó
+
+Spring
