@@ -1,5 +1,9 @@
 package com.vn.interfaces;
 
+import java.util.List;
+
+import com.vn.entity.Users;
+
 public class UserImplement implements UserInterface {
 
 	@Override
@@ -10,8 +14,20 @@ public class UserImplement implements UserInterface {
 
 	@Override
 	public boolean updateUser() {
+		System.out.println("updateUser");
+		return false;
+	}
+
+	@Override
+	public boolean selectUser(String id) {
 		// TODO Auto-generated method stub
 		return false;
+	}
+
+	@Override
+	public List<Users> selectAllUsers() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
