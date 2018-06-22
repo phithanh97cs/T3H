@@ -22,6 +22,4 @@
 6. Exception trong Java
 	Exception
 	Kế thừa Exception
-		
-
 7. 
