@@ -1,6 +1,6 @@
 package com.vn.entity;
 
-public class Users {
+public class Users{
 
 	//Đây là constructor mặc định
 	public Users(){
