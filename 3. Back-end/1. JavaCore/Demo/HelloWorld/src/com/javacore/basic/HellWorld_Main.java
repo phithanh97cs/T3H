@@ -2,6 +2,10 @@ package com.javacore.basic;
 
 import java.util.Scanner;
 
+/**
+ * @author Huy
+ *
+ */
 public class HellWorld_Main {
 	
 
