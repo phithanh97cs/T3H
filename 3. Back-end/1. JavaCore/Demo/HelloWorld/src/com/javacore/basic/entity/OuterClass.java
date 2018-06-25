@@ -19,6 +19,22 @@ public class OuterClass {
 		OuterClass obj = new OuterClass();
 		OuterClass.InnerClass in = obj.new InnerClass();
 		in.printMessage();
+		
+		OuterClass.InnerInterface innerInterface = new InnerInterface() {
+			
+			@Override
+			public String getUserName() {
+				// TODO Auto-generated method stub
+				return "name";
+			}
+			
+			@Override
+			public String getLastName() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+		};
+		innerInterface.getLastName();
 	}
 	
 }
