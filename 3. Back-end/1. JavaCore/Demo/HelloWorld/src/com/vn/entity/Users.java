@@ -1,29 +1,39 @@
 package com.vn.entity;
 
 public class Users {
-	
-	/*final String username; => Phải định nghĩa giá trị cho username thì không có lỗi
-							=> với từ khóa final thì sẽ không có setter cho nó và giá trị không thay đổi*/
-	
-	//private final String username = "Từ khóa final"; => Ok
-	
-	private String username;
-	private String name;
 
-	public String getUsername() {
-		return username;
+	//Đây là constructor mặc định
+	public Users(){
+		
 	}
-
-	public void setUsername(String username) {
-		this.username = username;
+	
+	// đây không là constructor mặc định
+	// Khi khai báo  constructor không mặc định, bạn phải khai báo constructor mặc định
+	public Users(String name){
+		
 	}
+	
+	// Với từ khóa final với biến thì biến đó phải định nghĩa giá trị trước
+	// Sẽ không có setter với biến final
+	//Biến final giá trị sẽ không thể set lại
+	
+	// Với từ khóa static thì khi khởi tạo constructor của class, biến static sẽ được khởi tạo
+	// bạn thử đặt WatchPoint và xem giá trị khi khởi tao
+	final String username = "Username";
 
-	public String getName() {
+	// private String username;
+	private static String name = "Your Name";
+
+	public static String getName() {
 		return name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public static void setName(String name) {
+		Users.name = name;
+	}
+
+	public String getUsername() {
+		return username;
 	}
 
 }
