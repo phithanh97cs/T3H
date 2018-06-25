@@ -2,12 +2,21 @@ package com.javacore.basic.entity;
 
 public class OuterClass {
 	private int id = 30;
-	// khai bao Inner Class
-	private class InnerClass {
+	
+	// Member class
+	private class MemberInner {
 		void printMessage() {
 			System.out.println("Id cua outer: " + id);
 		}
 	}
+	
+	//Anonymous Inner Class
+	private AnonymousInner item =  new String(){
+		void printMessage() {
+			System.out.println("Id cua outer: " + id);
+		}
+	}
+	
 	
 	protected interface InnerInterface{
 		String getUserName();
@@ -17,7 +26,7 @@ public class OuterClass {
 	// phan ket thuc cua khai bao
 	public static void main(String args[]) {
 		OuterClass obj = new OuterClass();
-		OuterClass.InnerClass in = obj.new InnerClass();
+		OuterClass.MemberInner in = obj.new MemberInner();
 		in.printMessage();
 		
 		OuterClass.InnerInterface innerInterface = new InnerInterface() {
