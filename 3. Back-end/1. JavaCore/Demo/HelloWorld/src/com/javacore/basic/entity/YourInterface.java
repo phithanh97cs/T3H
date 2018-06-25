@@ -1,6 +1,6 @@
-package com.javacore.basic.interfaces;
+package com.javacore.basic.entity;
 
-interface YourInterface extends Interface1, Interface2 {
+interface UserInterface{
 	// Với từ khóa static và default bạn phải đặt body trong method
 	default String roleUserName() {
 		return "guest";
