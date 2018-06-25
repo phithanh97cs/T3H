@@ -8,7 +8,6 @@ public class Users{
 	}
 	
 	// đây không là constructor mặc định
-	// Khi khai báo  constructor không mặc định, bạn phải khai báo constructor mặc định
 	public Users(String name){
 		
 	}
