@@ -1,4 +1,4 @@
-package com.javacore.entity;
+package com.javacore.basic.entity;
 
 public class Users{
 

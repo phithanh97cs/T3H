@@ -1,4 +1,4 @@
-package com.javacore.interfaces;
+package com.javacore.basic.interfaces;
 
 public interface YourInterface extends Interface1, Interface2 {
 	// Với từ khóa static và default bạn phải đặt body trong method

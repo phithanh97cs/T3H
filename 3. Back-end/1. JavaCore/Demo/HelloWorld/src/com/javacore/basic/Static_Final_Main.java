@@ -1,8 +1,6 @@
-package com.javacore;
+package com.javacore.basic;
 
-import java.util.Scanner;
-
-import com.javacore.entity.Users;
+import com.javacore.basic.entity.Users;
 
 public class Static_Final_Main {
 	

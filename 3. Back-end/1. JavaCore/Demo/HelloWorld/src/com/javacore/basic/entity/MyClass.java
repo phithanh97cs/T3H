@@ -1,6 +1,6 @@
-package com.javacore.entity;
+package com.javacore.basic.entity;
 
-import com.javacore.interfaces.YourInterface;
+import com.javacore.basic.interfaces.YourInterface;
 
 public class MyClass extends MySupperClass implements YourInterface {
 

@@ -1,8 +1,8 @@
-package com.javacore.interfaces;
+package com.javacore.basic.interfaces;
 
 import java.util.List;
 
-import com.javacore.entity.Users;
+import com.javacore.basic.entity.Users;
 
 public class UserImplement implements UserInterface {
 

@@ -1,4 +1,4 @@
-package com.javacore.interfaces;
+package com.javacore.basic.interfaces;
 
 public class MainTest {
 	public static void main(String[] args) {

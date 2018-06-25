@@ -1,4 +1,4 @@
-package com.javacore.helloworld;
+package com.javacore.basic.helloworld;
 
 
 public class HelloWorld {
