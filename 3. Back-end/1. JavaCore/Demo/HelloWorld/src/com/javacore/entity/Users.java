@@ -1,4 +1,4 @@
-package com.vn.entity;
+package com.javacore.entity;
 
 public class Users{
 

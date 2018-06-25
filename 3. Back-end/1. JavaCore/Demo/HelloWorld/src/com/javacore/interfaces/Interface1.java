@@ -1,4 +1,4 @@
-package com.vn.interfaces;
+package com.javacore.interfaces;
 
 public interface Interface1 {
 	

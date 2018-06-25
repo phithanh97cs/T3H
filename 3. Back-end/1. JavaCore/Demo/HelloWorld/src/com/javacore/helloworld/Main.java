@@ -1,4 +1,4 @@
-package com.vn.helloworld;
+package com.javacore.helloworld;
 import java.util.Scanner;
 
 public class Main {

@@ -1,8 +1,8 @@
-package com.vn;
+package com.javacore;
 
 import java.util.Scanner;
 
-import com.vn.entity.Users;
+import com.javacore.entity.Users;
 
 public class Static_Final_Main {
 	

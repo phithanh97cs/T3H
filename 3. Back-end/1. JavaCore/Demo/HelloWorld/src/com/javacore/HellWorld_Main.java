@@ -1,4 +1,4 @@
-package com.vn;
+package com.javacore;
 
 import java.util.Scanner;
 

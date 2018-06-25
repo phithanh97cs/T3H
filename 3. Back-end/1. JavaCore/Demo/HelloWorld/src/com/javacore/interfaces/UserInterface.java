@@ -1,8 +1,8 @@
-package com.vn.interfaces;
+package com.javacore.interfaces;
 
 import java.util.List;
 
-import com.vn.entity.Users;
+import com.javacore.entity.Users;
 
 public interface UserInterface {
 	
