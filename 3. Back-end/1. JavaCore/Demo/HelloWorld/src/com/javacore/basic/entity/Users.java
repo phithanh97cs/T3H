@@ -1,7 +1,7 @@
 package com.javacore.basic.entity;
 
 public class Users{
-
+	
 	//Đây là constructor mặc định
 	public Users(){
 		
