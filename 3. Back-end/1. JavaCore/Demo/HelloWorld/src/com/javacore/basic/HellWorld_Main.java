@@ -8,7 +8,11 @@ import java.util.Scanner;
  */
 public class HellWorld_Main {
 	
-
+	private String name;
+	String username;
+	int item;
+	
+	
 	public static void main(String[] args) {
 		//cach 1
 		System.out.println("Hello World");

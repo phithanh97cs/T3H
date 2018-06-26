@@ -5,7 +5,7 @@ import com.javacore.basic.interfaces.VehicleInterfacce;
 public class Car extends Vehicle implements VehicleInterfacce {
 	int cadence = 0;
 	public int speed;
-	int gear = 1;
+	int gear = 1;	
 	
 	@Override
 	public void run() {
