@@ -11,12 +11,11 @@ public class OuterClass {
 	}
 	
 	//Anonymous Inner Class
-	private AnonymousInner item =  new String(){
-		void printMessage() {
-			System.out.println("Id cua outer: " + id);
-		}
-	}
-	
+//	private AnonymousInner item =  new Interface(){
+//		void printMessage() {
+//			System.out.println("Id cua outer: " + id);
+//		}
+//	}
 	
 	protected interface InnerInterface{
 		String getUserName();
