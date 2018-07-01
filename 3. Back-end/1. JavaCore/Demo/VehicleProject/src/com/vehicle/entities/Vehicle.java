@@ -4,6 +4,10 @@ import com.vehicle.interfaces.VehicleInterface;
 
 public class Vehicle implements VehicleInterface {
 
+	static {
+		System.out.println("Vehicle run");
+	}
+	
 	@Override
 	public void run() {
 		System.out.println("Vehicle run");
