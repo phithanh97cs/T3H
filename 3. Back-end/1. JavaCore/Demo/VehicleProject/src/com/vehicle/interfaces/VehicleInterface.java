@@ -1,6 +1,8 @@
 package com.vehicle.interfaces;
 
-public interface VehicleInterface {
+import java.lang.reflect.GenericDeclaration;
+
+public interface VehicleInterface extends GenericInterface{
 	
 	int speed = 0; // = public final static x = 0;
 	
