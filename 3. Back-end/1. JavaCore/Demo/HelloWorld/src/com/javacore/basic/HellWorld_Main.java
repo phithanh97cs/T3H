@@ -20,8 +20,23 @@ public class HellWorld_Main {
 		Scanner scanner;
 		scanner = new Scanner(System.in);
 		System.out.println("Nhập tên bạn: ");
-		String name = scanner.nextLine();
-		System.out.println("Tên bạn vừa nhập: "+ name);
+		String name;
+		while (true) {
+			name = scanner.nextLine();
+			//System.out.println("Tên bạn vừa nhập: "+ name);
+			
+			switch (name) {
+			case "exit":
+				System.out.println("exit");
+				break;
+			case "Huy":
+				System.out.println("Huy");
+			default:
+				System.out.println("Tên bạn vừa nhập: "+ name);
+			}
+			
+			
+		}
 	}
 	
 }
