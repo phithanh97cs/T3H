@@ -2,7 +2,7 @@
 
 2. Java Web đơn giản Hello World
  Hàm main trong java là gì
- Tại sao phải sử dụng argument 
+ Tại sao phải sử dụng argument s
 
 3. Sử dụng class
 3.1 Các loại dữ liệu trong Java
